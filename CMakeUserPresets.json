@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "ninja",
+      "inherits": "ninja_common",
+      "environment": {
+        "VCPKG_ROOT": "C:/Work/Dev/vcpkg"
+      }
+    },
+    {
+      "name": "vs",
+      "inherits": "vs_common",
+      "environment": {
+        "VCPKG_ROOT": "C:/Work/Dev/vcpkg"
+      }
+    }
+  ]
+}
